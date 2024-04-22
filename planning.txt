@@ -1,0 +1,17 @@
+# goblin_sapper
+
+Structure:
+    Interface:
+        Parse arguments
+        Possibly use shunting yard algorithm
+        Ensure no overflows can happen
+
+    Modules:
+        -h, --help
+        -v, --version
+        -s
+
+        Each of these should have their own function that would be called in the interface.
+    Utilities
+        The only thing that comes to mind for ultilities is text formatting for the help module
+        I'll just have this just in case I need it.
