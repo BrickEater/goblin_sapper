@@ -5,6 +5,8 @@ Structure:
         Parse arguments
         Possibly use shunting yard algorithm
         Ensure no overflows can happen
+        Possibly make a hash table, mostly because I've never made one before
+            also, it's fast
 
     Modules:
         -h, --help
@@ -15,3 +17,10 @@ Structure:
     Utilities
         The only thing that comes to mind for ultilities is text formatting for the help module
         I'll just have this just in case I need it.
+
+
+Future Features:
+    
+    - Creates a bash script payload that opens a reverse shell
+    - Creates a listener socket for reverse shells
+    - Simulate wget
